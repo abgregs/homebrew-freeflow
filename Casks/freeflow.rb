@@ -22,5 +22,8 @@ cask "freeflow" do
       dictation after that is fully on-device.
     EOS
   
-    zap trash: ["~/Library/Preferences/com.freeflow.app.plist"]
+    zap trash: [
+    "~/Library/Preferences/com.freeflow.app.plist",
+    "~/Library/Application Support/FreeFlow"
+    ]
   end

@@ -8,7 +8,7 @@ cask "freeflow" do
     desc "Menu bar dictation app with on-device transcription"
     homepage "https://github.com/abgregs/free-flow"
     
-    depends_on macos: ">= :sonoma"   # macOS 14+
+    depends_on macos: :sonoma   # macOS 14+
     depends_on arch: :arm64          # Apple Silicon
 
     app "FreeFlow.app"
